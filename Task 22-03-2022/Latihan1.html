@@ -1,0 +1,193 @@
+<html>
+
+<title>Main Profile</title>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+        <!-- <link href="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet"> -->
+        <link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+<style>
+    hr{
+    background:black;
+    }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+    <div class="row">
+        <div class="col-md-12">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="Latihan 1 Bootstrap.html">My Profile</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll"
+        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px;">
+            <!-- <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li> -->
+            <!-- <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li> -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                    data-toggle="dropdown" aria-expanded="false">
+                    Custom Profile
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                    <li><a class="dropdown-item" href="Latihan1.html">Main Profile</a></li>
+                    <li><a class="dropdown-item" href="#">Experience</a></li>
+                    <!-- <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                </ul>
+            </li>
+            <!-- <li class="nav-item">
+                <a class="nav-link disabled">Link</a>
+            </li> -->
+        </ul>
+        <!-- <form class="d-flex">
+            <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+        </form> -->
+    </div>
+</nav>
+</div>
+</div>
+
+
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-xl-6">
+                <form>
+                    <h1 class="">Main Profile</h1>
+
+                    <!-- <label class="">Nama</label> -->
+                    <div class="form-group row">
+                    <div class="col-sm-12 col-md-6 col-xl-4">
+                        Nama :
+                    </div>
+                        <div class="col-sm-12 col-md-6 col-xl-8">
+                        <input class="form-control form-control-user" id="nama" type="text" value="" placeholder="Isikan Nama" />                
+                    </div>
+                    </div>
+
+                    <!-- <label class="">Alamat</label> -->
+                    <div class="form-group row">
+                        <div class="col-sm-12 col-md-6 col-xl-4">
+                            Alamat :
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-xl-8">
+                        <input class="form-control form-control-user" id="alamat" type="text" value="" placeholder="Isikan Address" />
+                    </div>
+                    </div>
+
+                    <!-- <label class="">Email</label> -->
+                    <div class="form-group row">
+                        <div class="col-sm-12 col-md-6 col-xl-4">
+                            Email :
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-xl-8">
+                        <input class="form-control form-control-user" id="mail" type="email" value="" placeholder="Isikan Email" />
+                    </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <div class="col-sm-7">
+                        </div>
+                    <div class="col-sm-5">
+                        <button id="edit" class="btn btn-warning" style="color:white;"><span></span><i class="icon-edit"></i>&nbspEdit</button>
+                        <!-- </div>
+                        <div class="col-sm-3"> -->
+                        <button id="submit" class="btn btn-success"><span></span>Submit&nbsp<i class="icon-angle-right"></i></button>
+                        </div>
+                    </div>
+                    <!-- <button id="edit" class="btn btn-warning" style="color:white; margin-left: 400px;">Edit</button>&nbsp
+                    <button id="submit" class="btn btn-success">Submit</button> -->
+<hr>
+                </form>
+            </div>
+            </div>
+
+    </div>
+
+<!-- <form class="user" style="margin-top:20px; margin-left:300px; margin-right:300px;" >
+    <h1><marquee>LATIHAN JAVASCRIPT JQUERY 1</marquee></h1>
+    <hr>
+    <div class="form-group">
+    <input class="form-control form-control-user" id="nama" type="text" value="" placeholder="Isikan Nama"/>
+</div>
+    <div class="form-group">
+        <input class="form-control form-control-user"  id="alamat" type="text" value="" placeholder="Isikan Address"/></div>
+<div class="form-group">
+    <input class="form-control form-control-user" id="mail" type="email" value="" placeholder="Isikan Email"/>
+</div>
+
+<div class="text-center">
+<button id="reset" class="btn btn-danger btn-md btn-block">Reset</button>
+    <button id="edit"  class="btn btn-warning btn-md btn-block">Edit</button>
+    <button id="submit" class="btn btn-success btn-md btn-block">Submit</button>
+</div>
+</form> -->
+
+
+<!-- Optional JavaScript; choose one of the two! -->
+
+<!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+    crossorigin="anonymous"></script>
+
+<!-- Option 2: Separate Popper and Bootstrap JS -->
+<!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    -->
+
+
+</body>
+
+<script>
+    $(document).ready(function () {
+
+        $("#reset").click(function () {
+            $("#nama").prop("disabled", false);
+            $("#alamat").prop("disabled", false);
+            $("#mail").prop("disabled", false);
+            $("#edit").prop("disabled", false);
+            $("#submit").prop("disabled", false);
+        });
+
+       $("#edit").click(function (){
+            $("#nama").prop("disabled",false);
+            $("#alamat").prop("disabled",false);
+            $("#mail").prop("disabled",false);
+            $("#edit").prop("disabled",true);
+            $("#submit").prop("disabled",false);
+        }); 
+        
+        $("#submit").click(function () {
+            $("#nama").prop("disabled", true);
+            $("#alamat").prop("disabled", true);
+            $("#mail").prop("disabled", true);
+            $("#edit").prop("disabled", false);
+            $("#submit").prop("disabled", true);
+        });
+
+    });
+</script>
+
+</html>
